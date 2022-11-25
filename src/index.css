@@ -1,13 +1,22 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color1: #1F0B44;
+  --color2: #3D256A;
+  --color3: #A64AEE;
+  --color4: #F69A36;
+  --color5: #FFFFFF;
+}
+
+html {
+  background-color: var(--color1);
+  color: var(--color5);
+  font-size: 100%;
+  font-family: 'Inter', sans-serif;
 }
