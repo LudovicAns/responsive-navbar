@@ -10,7 +10,7 @@ import Logo from "./Logo.svg"
  * 
  * 
  * You can find css file here:
- * https://github.com/LudovicAns/responsive-navbar/src/components/navbar/Navbar.css
+ * https://github.com/LudovicAns/responsive-navbar/blob/master/src/components/navbar/Navbar.css
  * 
  * @version 1.0.0
  * @author LudovicAns
